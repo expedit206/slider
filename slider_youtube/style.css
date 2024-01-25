@@ -23,9 +23,7 @@ button:nth-child(2){
     position: absolute;
 left: 39.3vw;
 }
-button{
-    background-color: transparent;
-}
+
 .slider_content{
     height: 100%;
     width: 100%;
@@ -33,6 +31,7 @@ button{
     overflow: hidden;
     transition: 3s ease;
     scroll-behavior: smooth;
+    box-shadow: 0px 0px 5px 5px black;
 }
 .slider_content_item{
     height: 100%;
@@ -43,7 +42,7 @@ button{
     width: 100%;
 }
 i{
-    color: rgba(255, 255, 255, 0.801);
+    color: rgba(26, 21, 21, 0.801);
     font-size: 2rem;
     cursor: pointer;
 }
